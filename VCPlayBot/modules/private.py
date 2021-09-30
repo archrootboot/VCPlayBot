@@ -56,7 +56,7 @@ async def start_(client: Client, message: Message):
                          "📚 Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "SL MUSIC ZONE", url=f"https://t.me/{OWNER_NAME}")
+                        "SL MUSIC ZONE", url=f"https://t.me/SLMUSICZONE1")
                 ],[
                     InlineKeyboardButton(
                         "DMG-X GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
