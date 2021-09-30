@@ -85,10 +85,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "DMG-X GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "DMG-X CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
