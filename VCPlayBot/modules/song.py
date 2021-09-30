@@ -48,8 +48,9 @@ def song(client, message):
         open(thumb_name, "wb").write(thumb.content)
 
         duration = results[0]["duration"]
+        views = results[0]["views"]
         results[0]["url_suffix"]
-        results[0]["views"]
+        
 
     except Exception as e:
         m.edit("❌ Found Nothing.\n\nTry another keywork or maybe spell it properly.")
